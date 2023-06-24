@@ -1,0 +1,57 @@
+### CONTROLLERS
+
+controllers 0-3: i/o b7f3
+controllers 4-7: i/o 2b56
+controllers 8-11: i/o 3cf1
+
+c0 = io1
+c1 = io1, front
+c2 = io1
+c3 = io1
+c4 = io2
+c5 = io2, front
+c6 = io2
+c7 = io2
+c8 = io3
+c9 = io3
+c10 = io3
+c11 = io3
+
+note - set strength 255 = 1
+
+### ANGLES
+
+panel angles:
+height 79%
+angle 75%
+
+### CONFIG
+
+backup battery panel:
+
+- lights
+input ON light = C3/Brown
+output ON light = C3/Green
+
+- gauges
+input (% of max capacity) = C3/Gray
+output (% of max capacity) = C3/Aqua
+capacity = C3/Purple
+
+- switches
+input override = C3/Brown
+output override = C3/Green
+
+input limiter = C3/Yellow
+output limiter = C3/Lime
+
+alarm panel
+
+- lights
+master alarm = C5/White
+power fail = C5/Orange
+on-site w/h = C5/Pink
+under attack = C5/LightBlue
+
+- keys
+silence = C5/Yellow
